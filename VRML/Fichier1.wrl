@@ -1,0 +1,165 @@
+#VRML V2.0 utf8 
+Group { 
+children [
+DEF objet1 Transform {
+translation 2 0 0
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0 0.8 0.8 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Cylinder{
+radius 1.0 
+ height 2.0
+bottom FALSE
+side FALSE
+}
+}
+},
+DEF objet2 Transform {
+translation 0 2 0
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0.8 0.8 0 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Sphere{
+radius 1.0 
+}
+}
+},
+DEF objet3 Transform {
+translation 0 0 2
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0.8 0 0.8 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Box{
+size 1.0 1.0 1.0 
+}
+}
+},
+DEF objet4 Transform {
+translation -2 0 0
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0.8 0 0 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Cone{
+bottomRadius 1.0 
+ height 2.0
+}
+}
+},
+DEF objet5 Transform {
+translation -2 0 2
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0.8 0.8 0.8 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Cylinder{
+radius 1.0 
+ height 2.0
+}
+}
+},
+DEF objet6 Transform {
+translation 3 3 -3
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0 0.8 0 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Text{
+string ["Bonjour Tout le monde"]
+fontStyle FontStyle{
+family "<aucune>"
+ style "<aucune>" 
+size 1.0 
+}
+}
+}
+},
+Background  {
+skyAngle [0.0, 1.1, 1.57]
+skyColor [ 0 0 1, 0 0 0.5, 0.8 0.8 1, 0.9 0.9 0.9]
+groundAngle [0.0, 1.1, 1.57]
+groundColor [ 0.8 0.8 0.4, 0.8 0.8 0.4, 0.8 0.8 0.7, 0.8 0.8 0.8]
+}
+DirectionalLight {
+ambientIntensity 1
+color 1 0 0
+direction 0 1 1
+intensity 1
+}
+PointLight {
+ambientIntensity 1 
+color 0.4 0.5 0.3 
+location 0 0 0 
+attenuation 1 0 0 
+intensity 1 
+radius 100 
+}
+SpotLight {
+ambientIntensity 0.2 
+beamWidth 1.570796 
+cutOffAngle 0.2 
+color 0.6 0.8 0.2 
+direction 0 0 1 
+location 0 0 0 
+attenuation 1 0 0 
+intensity 1 
+radius 100 
+}
+
+ Inline{
+url "boite.wrl" }
+] }
+
+ Inline{
+url "axes.wrl" }

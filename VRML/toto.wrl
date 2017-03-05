@@ -1,0 +1,103 @@
+#VRML V2.0 utf8 
+Group { 
+children [
+DEF objet1 Transform {
+translation 0 0 0
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0 0.8 0 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Box{
+size 1.0 1.0 1.0 
+}
+}
+},
+DEF animCylindre1 CylinderSensor {
+maxAngle -1
+minAngle 0
+offset 0 
+diskAngle 0.262 
+autoOffset TRUE
+enabled TRUE
+}
+DEF animPlane1 PlaneSensor {
+maxPosition -1 -1
+minPosition 0 0
+offset 0 0 0
+autoOffset TRUE
+enabled TRUE
+}
+DEF animSphere1 SphereSensor {
+offset 0 1 0 0
+autoOffset TRUE
+enabled TRUE
+}
+DEF objet2 Transform {
+translation 0 0 0
+rotation 1 0 0 0
+children Shape {
+appearance Appearance {
+material Material {
+ambientIntensity 0.2 
+diffuseColor 0.8 0 0.8 
+emissiveColor 0 0 0 
+shininess 0.2 
+specularColor 0 0 0 
+transparency 0 
+}
+}
+geometry Cylinder{
+radius 0.5 
+ height 8
+}
+}
+},
+Background  {
+skyAngle [0.0, 1.1, 1.57]
+skyColor [ 0 0 1, 0 0 0.5, 0.8 0.8 1, 0.9 0.9 0.9]
+groundAngle [0.0, 1.1, 1.57]
+groundColor [ 0.8 0.8 0.4, 0.8 0.8 0.4, 0.8 0.8 0.7, 0.8 0.8 0.8]
+}
+Background  {
+skyAngle [0.0, 1.1, 1.57]
+skyColor [ 0 0 1, 0 0 0.5, 0.8 0.8 1, 0.9 0.9 0.9]
+groundAngle [0.0, 1.1, 1.57]
+groundColor [ 0.8 0.8 0.4, 0.8 0.8 0.4, 0.8 0.8 0.7, 0.8 0.8 0.8]
+}
+DEF animPlane2 PlaneSensor {
+maxPosition -1 -1
+minPosition 0 0
+offset 0 0 0
+autoOffset TRUE
+enabled TRUE
+}
+DEF animCylindre2 CylinderSensor {
+maxAngle -1
+minAngle 0
+offset 0 
+diskAngle 0.262 
+autoOffset TRUE
+enabled TRUE
+}
+] }
+ROUTE animPlane1.translation_changed TO objet1.set_translation
+ROUTE animPlane1.translation_changed TO objet2.set_translation
+ROUTE animPlane2.translation_changed TO objet1.set_translation
+ROUTE animPlane2.translation_changed TO objet2.set_translation
+ROUTE animSphere1.rotation_changed TO objet1.set_rotation
+ROUTE animSphere1.rotation_changed TO objet2.set_rotation
+ROUTE animCylindre1.rotation_changed TO objet1.set_rotation
+ROUTE animCylindre1.rotation_changed TO objet2.set_rotation
+ROUTE animCylindre2.rotation_changed TO objet1.set_rotation
+ROUTE animCylindre2.rotation_changed TO objet2.set_rotation
+
+ Inline{
+url "axes.wrl" }

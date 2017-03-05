@@ -1,0 +1,62 @@
+﻿  Prog.cpp
+Prog.cpp(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(152): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(153): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(154): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(155): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(156): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(157): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(158): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(159): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Prog.cpp(271): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(271): note: consider using '%hs' in the format string
+  Prog.cpp(271): note: consider using '%Ts' in the format string
+  Prog.cpp(271): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(277): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(277): note: consider using '%hs' in the format string
+  Prog.cpp(277): note: consider using '%Ts' in the format string
+  Prog.cpp(277): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(391): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(391): note: consider using '%hs' in the format string
+  Prog.cpp(391): note: consider using '%Ts' in the format string
+  Prog.cpp(391): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(397): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(397): note: consider using '%hs' in the format string
+  Prog.cpp(397): note: consider using '%Ts' in the format string
+  Prog.cpp(397): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(511): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(511): note: consider using '%hs' in the format string
+  Prog.cpp(511): note: consider using '%Ts' in the format string
+  Prog.cpp(511): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(517): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(517): note: consider using '%hs' in the format string
+  Prog.cpp(517): note: consider using '%Ts' in the format string
+  Prog.cpp(517): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(632): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(632): note: consider using '%hs' in the format string
+  Prog.cpp(632): note: consider using '%Ts' in the format string
+  Prog.cpp(632): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(638): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(638): note: consider using '%hs' in the format string
+  Prog.cpp(638): note: consider using '%Ts' in the format string
+  Prog.cpp(638): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(762): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(762): note: consider using '%hs' in the format string
+  Prog.cpp(762): note: consider using '%Ts' in the format string
+  Prog.cpp(762): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(768): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(768): note: consider using '%hs' in the format string
+  Prog.cpp(768): note: consider using '%Ts' in the format string
+  Prog.cpp(768): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(776): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  Prog.cpp(776): note: consider using '%hs' in the format string
+  Prog.cpp(776): note: consider using '%Ts' in the format string
+  Prog.cpp(776): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+Prog.cpp(776): warning C4477: 'fwprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'char *'
+  Prog.cpp(776): note: consider using '%hs' in the format string
+  Prog.cpp(776): note: consider using '%Ts' in the format string
+  Prog.cpp(776): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+  VRML.vcxproj -> C:\Users\Shuri\Desktop\VRML\Debug\VRML.exe

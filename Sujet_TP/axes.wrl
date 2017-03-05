@@ -1,0 +1,423 @@
+#VRML V2.0 utf8
+# Axes X Y Z en 3 dimensions
+DEF Camera Group {
+	children[
+		DEF axeXYZ Viewpoint {
+			position 10 2 12
+			description "Vue sur XYZ"
+			orientation 0 1 0 0.6		
+					}
+	  	DEF axePositif Viewpoint {
+			position 7.5 2 11
+			description "Vue du positif"
+			orientation 0 1 0 0.5
+
+		              		 }		
+		DEF axeNegatif Viewpoint {
+			position -7.5 -2 -11
+			description "Vue du negatif"
+			orientation 0 1 0 3.5
+					}	
+		]
+			}
+DEF Axes Group {
+	children [
+		DEF AxeX Shape {
+			appearance Appearance {
+				material Material 
+				{
+					diffuseColor 1 1 1
+				}
+						}
+			geometry Box {
+				size 15 0.05 0.02
+				     }	
+				}
+		DEF AxeY Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 1 1 1
+				}
+			}
+					geometry Box {
+						size 0.05 15 0.02
+			}
+		}
+		DEF AxeZ Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 1 1 1
+				}
+			}
+				geometry Box {
+					size 0.02 0.05 15
+			}
+		}
+		DEF UniteXZNEG Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 1 0 0
+				}
+
+			}
+				geometry Box {
+					size 0.01 0.5 0.01
+			}
+		}
+		DEF UniteXZPOS Shape {
+			appearance Appearance 
+			{
+				material Material
+				{
+					diffuseColor 0 1 0
+				}			}
+					geometry Box {
+					size 0.01 0.5 0.01
+			}
+		}
+		DEF UniteYNEG Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 1 0 0
+				}
+			}
+					geometry Box {
+						size 0.5 0.01 0.01
+			}
+		}
+		DEF UniteYPOS Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 0 1 0
+				}
+			}
+					geometry Box {
+						size 0.5 0.01 0.01
+			}
+		}
+		DEF UniteY0 Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 0 0 1
+				}
+			}
+					geometry Box {
+				size 0.5 0.1 0.01
+			}
+		}
+		DEF UniteX0 Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 0 0 1
+				}
+			}
+					geometry Box {
+						size 0.1 0.5 0.01
+			}
+		}
+		DEF UniteZ0 Shape {
+			appearance Appearance 
+			{
+				material Material 
+				{
+					diffuseColor 0 0 1
+				}
+			}
+					geometry Box {
+				size 0.01 0.1 0.5
+			}
+		}
+		Transform {
+			translation 1 0 0
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 2 0 0
+			children USE UniteXZPOS	
+	}		Transform {
+			translation 3 0 0
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 4 0 0
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 5 0 0
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 6 0 0
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 7 0 0
+			children USE UniteXZPOS
+		}		Transform {
+
+			translation -1 0 0
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation -2 0 0
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation -3 0 0
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation -4 0 0
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation -5 0 0
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation -6 0 0
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation -7 0 0
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation 0 -1 0
+			children USE UniteYNEG
+		}
+		Transform {
+			translation 0 -2 0
+			children USE UniteYNEG
+		}
+		Transform {
+			translation 0 -3 0
+			children USE UniteYNEG
+		}
+		Transform {
+			translation 0 -4 0
+			children USE UniteYNEG
+		}
+		Transform {
+			translation 0 -5 0
+			children USE UniteYNEG
+		}
+		Transform {
+			translation 0 -6 0
+			children USE UniteYNEG
+		}
+		Transform {
+			translation 0 -7 0
+			children USE UniteYNEG
+		}
+		Transform {
+			translation 0 1 0
+			children USE UniteYPOS
+		}
+		Transform {
+			translation 0 2 0
+			children USE UniteYPOS
+		}
+		Transform {
+			translation 0 3 0
+			children USE UniteYPOS
+		}
+		Transform {
+
+			translation 0 4 0
+			children USE UniteYPOS
+		}		Transform {
+			translation 0 5 0
+			children USE UniteYPOS
+		}
+		Transform {
+			translation 0 6 0
+			children USE UniteYPOS
+		}
+		Transform {
+			translation 0 7 0
+			children USE UniteYPOS
+		}
+		Transform {
+			translation 0 0 -1
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation 0 0 -2
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation 0 0 -3
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation 0 0 -4
+			children USE UniteXZNEG
+		}		Transform {
+			translation 0 0 -5
+			children USE UniteXZNEG
+		}		Transform {
+			translation 0 0 -6
+			children USE UniteXZNEG
+		}
+		Transform {
+			translation 0 0 -7
+			children USE UniteXZNEG
+		}
+		Transform {
+
+			translation 0 0 1
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 0 0 2
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 0 0 3
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 0 0 4
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 0 0 5
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 0 0 6
+			children USE UniteXZPOS
+		}
+		Transform {
+			translation 0 0 7
+			children USE UniteXZPOS
+		}
+	]
+}
+DEF Legende Group {
+	children[
+		Transform {
+			translation 6 0.5 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0 1 0
+						}
+					}
+					geometry Text {
+						string "X (+)"
+					fontStyle FontStyle {
+							size 0.5
+						}
+					}
+				}
+			]
+		}
+		Transform {
+			translation -7 0.5 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 0 0
+						}
+					}
+					geometry Text {
+						string "(-) X"
+						fontStyle FontStyle {
+							size 0.5
+						}
+					}
+				}
+			]		}		
+Transform {
+			translation 0.5 7 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0 1 0
+						}
+					}
+					geometry Text {
+						string "Y (+)"
+						fontStyle FontStyle {
+							size 0.5
+						}
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0.5 -7 0
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 0 0
+						}
+					}
+					geometry Text {
+						string "Y (-)"
+						fontStyle FontStyle {
+							size 0.5
+						}
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0.5 0 7
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0 1 0
+						}
+					}
+					geometry Text {
+						string "Z (+)"
+					fontStyle FontStyle {
+							size 0.5
+						}
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0.5 0 -7
+			children [
+			Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 1 0 0
+						}
+					}
+					geometry Text {
+						string "Z (-)"
+					fontStyle FontStyle {
+							size 0.5
+						}
+					}
+				}
+			]
+		}
+	]
+}
+
